@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C6C70976-5B0D-4680-8117-6B883CDAE4A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>687B5F25867A16BB19D6F9CD09D7277530C51290</key>
+		<string>https://github.com/HappyYuan/Grr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomProject/CustomProject.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>687B5F25867A16BB19D6F9CD09D7277530C51290</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HappyYuan/Grr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>687B5F25867A16BB19D6F9CD09D7277530C51290</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>687B5F25867A16BB19D6F9CD09D7277530C51290</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Git%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93</string>
+		</dict>
+	</array>
+</dict>
+</plist>
