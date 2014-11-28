@@ -11,4 +11,8 @@
 @interface FileHelper : NSObject
 
 +(FileHelper *)shareInstance ;
+-(long long)fileSizeAtPath:(NSString *)path ;
+- (float ) folderSizeAtPath:(NSString*) folderPath;
+
+
 @end
