@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042C0D5E1A28514A00598F6D /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C0D5D1A28514A00598F6D /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		042C0D601A2851F200598F6D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042C0D5F1A2851F200598F6D /* Security.framework */; };
 		C829F9871A1396D900AFC5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829F9861A1396D900AFC5B0 /* Foundation.framework */; };
 		C829F9891A1396D900AFC5B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829F9881A1396D900AFC5B0 /* CoreGraphics.framework */; };
 		C829F98B1A1396D900AFC5B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829F98A1A1396D900AFC5B0 /* UIKit.framework */; };
@@ -48,6 +50,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042C0D5C1A28514900598F6D /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		042C0D5D1A28514A00598F6D /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		042C0D5F1A2851F200598F6D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C829F9831A1396D900AFC5B0 /* CustomProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C829F9861A1396D900AFC5B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C829F9881A1396D900AFC5B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042C0D601A2851F200598F6D /* Security.framework in Frameworks */,
 				C829F9891A1396D900AFC5B0 /* CoreGraphics.framework in Frameworks */,
 				C829F98B1A1396D900AFC5B0 /* UIKit.framework in Frameworks */,
 				C829F9871A1396D900AFC5B0 /* Foundation.framework in Frameworks */,
@@ -162,6 +168,7 @@
 		C829F9851A1396D900AFC5B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				042C0D5F1A2851F200598F6D /* Security.framework */,
 				C829F9861A1396D900AFC5B0 /* Foundation.framework */,
 				C829F9881A1396D900AFC5B0 /* CoreGraphics.framework */,
 				C829F98A1A1396D900AFC5B0 /* UIKit.framework */,
@@ -230,6 +237,8 @@
 		C829F9BD1A139A8200AFC5B0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				042C0D5C1A28514900598F6D /* SFHFKeychainUtils.h */,
+				042C0D5D1A28514A00598F6D /* SFHFKeychainUtils.m */,
 				C89C8EF81A17A68900B09BDB /* FileHelper.h */,
 				C89C8EF91A17A68900B09BDB /* FileHelper.m */,
 				C89C8EFB1A17A6C500B09BDB /* APPHelper.h */,
@@ -473,6 +482,7 @@
 				C88F7D101A18DD2300CAE040 /* NSData+ImageContentType.m in Sources */,
 				C88F7D131A18DD2300CAE040 /* SDWebImageDecoder.m in Sources */,
 				C88F7D091A18DD2300CAE040 /* NSDictionary+RequestEncoding.m in Sources */,
+				042C0D5E1A28514A00598F6D /* SFHFKeychainUtils.m in Sources */,
 				C88F7D1C1A18DD2300CAE040 /* UIImageView+HighlightedWebCache.m in Sources */,
 				C88F7D181A18DD2300CAE040 /* UIButton+WebCache.m in Sources */,
 				C89C8EFA1A17A68900B09BDB /* FileHelper.m in Sources */,
