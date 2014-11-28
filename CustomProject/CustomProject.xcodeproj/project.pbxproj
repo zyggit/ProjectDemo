@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		042C0D5E1A28514A00598F6D /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C0D5D1A28514A00598F6D /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		042C0D601A2851F200598F6D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042C0D5F1A2851F200598F6D /* Security.framework */; };
+		042C0D631A28531800598F6D /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C0D621A28531800598F6D /* MD5Util.m */; };
+		042C0D661A28556400598F6D /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C0D651A28556400598F6D /* IAPHelper.m */; };
 		C829F9871A1396D900AFC5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829F9861A1396D900AFC5B0 /* Foundation.framework */; };
 		C829F9891A1396D900AFC5B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829F9881A1396D900AFC5B0 /* CoreGraphics.framework */; };
 		C829F98B1A1396D900AFC5B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829F98A1A1396D900AFC5B0 /* UIKit.framework */; };
@@ -53,6 +55,10 @@
 		042C0D5C1A28514900598F6D /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
 		042C0D5D1A28514A00598F6D /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
 		042C0D5F1A2851F200598F6D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		042C0D611A28531800598F6D /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Util.h; sourceTree = "<group>"; };
+		042C0D621A28531800598F6D /* MD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Util.m; sourceTree = "<group>"; };
+		042C0D641A28556400598F6D /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		042C0D651A28556400598F6D /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
 		C829F9831A1396D900AFC5B0 /* CustomProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C829F9861A1396D900AFC5B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C829F9881A1396D900AFC5B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -237,8 +243,12 @@
 		C829F9BD1A139A8200AFC5B0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				042C0D641A28556400598F6D /* IAPHelper.h */,
+				042C0D651A28556400598F6D /* IAPHelper.m */,
 				042C0D5C1A28514900598F6D /* SFHFKeychainUtils.h */,
 				042C0D5D1A28514A00598F6D /* SFHFKeychainUtils.m */,
+				042C0D611A28531800598F6D /* MD5Util.h */,
+				042C0D621A28531800598F6D /* MD5Util.m */,
 				C89C8EF81A17A68900B09BDB /* FileHelper.h */,
 				C89C8EF91A17A68900B09BDB /* FileHelper.m */,
 				C89C8EFB1A17A6C500B09BDB /* APPHelper.h */,
@@ -474,6 +484,7 @@
 				C88F7D0E1A18DD2300CAE040 /* Reachability.m in Sources */,
 				C88F7D211A18DED800CAE040 /* HYNetworkEngine.m in Sources */,
 				C88F7D1B1A18DD2300CAE040 /* UIImage+WebP.m in Sources */,
+				042C0D661A28556400598F6D /* IAPHelper.m in Sources */,
 				C88F7D171A18DD2300CAE040 /* SDWebImagePrefetcher.m in Sources */,
 				C88F7D0A1A18DD2300CAE040 /* NSString+MKNetworkKitAdditions.m in Sources */,
 				C89C8F031A17B73B00B09BDB /* UserInfoObject.m in Sources */,
@@ -490,6 +501,7 @@
 				C88F7D0D1A18DD2300CAE040 /* MKNetworkOperation.m in Sources */,
 				C89C8F001A17B4B300B09BDB /* DeviceHelper.m in Sources */,
 				C88F7D071A18DD2300CAE040 /* NSData+MKBase64.m in Sources */,
+				042C0D631A28531800598F6D /* MD5Util.m in Sources */,
 				C88F7D141A18DD2300CAE040 /* SDWebImageDownloader.m in Sources */,
 				C88F7D0B1A18DD2300CAE040 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 			);
