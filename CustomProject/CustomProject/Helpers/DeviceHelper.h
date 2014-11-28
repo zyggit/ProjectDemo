@@ -13,4 +13,24 @@
 @interface DeviceHelper : NSObject
 @property(nonatomic,strong)NSString * name ;
 +(DeviceHelper *)shareInstance ;
+
+/*
+ 得到设备的型号
+ */
+- (NSString *)getDeviceName ;
+/*
+ 得到设备总空间的大小
+ */
+- (NSString *)totalDiskSpace ;
+/*
+ 得到设备已使用空间的大小
+ */
+-(NSString *)usedDiskSpace ;
+/*
+ 得到设备空闲空间的大小
+ */
+-(NSString *)freeDiskSpace ;
+
+
+
 @end

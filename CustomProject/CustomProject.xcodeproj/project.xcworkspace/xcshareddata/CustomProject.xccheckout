@@ -12,20 +12,24 @@
 	<dict>
 		<key>687B5F25867A16BB19D6F9CD09D7277530C51290</key>
 		<string>https://github.com/HappyYuan/Grr.git</string>
+		<key>698659C85B3CC874FF8630AD67A36C1797C43FBE</key>
+		<string>https://github.com/HappyYuan/ProjectDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CustomProject/CustomProject.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>687B5F25867A16BB19D6F9CD09D7277530C51290</key>
+		<string>../../../../Git%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93</string>
+		<key>698659C85B3CC874FF8630AD67A36C1797C43FBE</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/HappyYuan/Grr.git</string>
+	<string>https://github.com/HappyYuan/ProjectDemo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>687B5F25867A16BB19D6F9CD09D7277530C51290</string>
+	<string>698659C85B3CC874FF8630AD67A36C1797C43FBE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>687B5F25867A16BB19D6F9CD09D7277530C51290</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Git%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>698659C85B3CC874FF8630AD67A36C1797C43FBE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProjectDemo</string>
 		</dict>
 	</array>
 </dict>
